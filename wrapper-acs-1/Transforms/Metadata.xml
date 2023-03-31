@@ -7,5 +7,59 @@
   <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='CursorLoader']/method[@name='loadInBackground']" />
   -->
 
+  <attr
+    path="/api/package[@name='java9.util.concurrent']/class[@name='CompletableFuture']/method[@name='runAfterBoth' and count(parameter)=2 and parameter[1][@type='java9.util.concurrent.CompletionStage&lt;?&gt;'] and parameter[2][@type='java.lang.Runnable']]"
+    name="managedReturn"
+    >
+    Java9.Util.Concurrent.ICompletionStage
+  </attr>
+  <attr
+    path="/api/package[@name='java9.util.concurrent']/class[@name='CompletableFuture']/method[@name='runAfterBothAsync' and count(parameter)=3 and parameter[1][@type='java9.util.concurrent.CompletionStage&lt;?&gt;'] and parameter[2][@type='java.lang.Runnable'] and parameter[3][@type='java.util.concurrent.Executor']]"
+    name="managedReturn"
+    >
+    Java9.Util.Concurrent.ICompletionStage
+  </attr>
+  <attr
+    path="/api/package[@name='java9.util.concurrent']/class[@name='CompletableFuture']/method[@name='runAfterBothAsync' and count(parameter)=2 and parameter[1][@type='java9.util.concurrent.CompletionStage&lt;?&gt;'] and parameter[2][@type='java.lang.Runnable']]"
+    name="managedReturn"
+    >
+    Java9.Util.Concurrent.ICompletionStage
+  </attr>
+  <attr
+    path="/api/package[@name='java9.util.concurrent']/class[@name='CompletableFuture']/method[@name='runAfterEither' and count(parameter)=2 and parameter[1][@type='java9.util.concurrent.CompletionStage&lt;?&gt;'] and parameter[2][@type='java.lang.Runnable']]"
+    name="managedReturn"
+    >
+    Java9.Util.Concurrent.ICompletionStage
+  </attr>
+  <attr
+    path="/api/package[@name='java9.util.concurrent']/class[@name='CompletableFuture']/method[@name='runAfterEitherAsync' and count(parameter)=2 and parameter[1][@type='java9.util.concurrent.CompletionStage&lt;?&gt;'] and parameter[2][@type='java.lang.Runnable']]"
+    name="managedReturn"
+    >
+    Java9.Util.Concurrent.ICompletionStage
+  </attr>
+  <attr
+    path="/api/package[@name='java9.util.concurrent']/class[@name='CompletableFuture']/method[@name='runAfterEitherAsync' and count(parameter)=3 and parameter[1][@type='java9.util.concurrent.CompletionStage&lt;?&gt;'] and parameter[2][@type='java.lang.Runnable'] and parameter[3][@type='java.util.concurrent.Executor']]"
+    name="managedReturn"
+    >
+    Java9.Util.Concurrent.ICompletionStage
+  </attr>
+  <attr
+    path="/api/package[@name='java9.util.concurrent']/class[@name='CompletableFuture']/method[@name='thenRun' and count(parameter)=1 and parameter[1][@type='java.lang.Runnable']]"
+    name="managedReturn"
+    >
+    Java9.Util.Concurrent.ICompletionStage
+  </attr>
+  <attr
+    path="/api/package[@name='java9.util.concurrent']/class[@name='CompletableFuture']/method[@name='thenRunAsync' and count(parameter)=1 and parameter[1][@type='java.lang.Runnable']]"
+    name="managedReturn"
+    >
+    Java9.Util.Concurrent.ICompletionStage
+  </attr>
+  <attr
+    path="/api/package[@name='java9.util.concurrent']/class[@name='CompletableFuture']/method[@name='thenRunAsync' and count(parameter)=2 and parameter[1][@type='java.lang.Runnable'] and parameter[2][@type='java.util.concurrent.Executor']]"
+    name="managedReturn"
+    >
+    Java9.Util.Concurrent.ICompletionStage
+  </attr>
 
 </metadata>
