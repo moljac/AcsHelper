@@ -1,0 +1,28 @@
+<Project Sdk="Xamarin.Legacy.Sdk">
+  <PropertyGroup>
+    <TargetFrameworks>MonoAndroid12.0;net6.0-android</TargetFrameworks>
+    <IsBindingProject>true</IsBindingProject>
+    <SupportedOSPlatformVersion>21</SupportedOSPlatformVersion>
+    <RootNamespace>wrapper_acs_1</RootNamespace>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Remove="android-retrofuture-1.7.4.jar" />
+    <None Remove="azure-communication-calling-2.0.0.aar" />
+    <None Remove="azure-communication-common-1.0.0.aar" />
+    <None Remove="mylibrary-debug.aar" />
+  </ItemGroup>
+  <ItemGroup>
+    <ReferenceJar Include="android-retrofuture-1.7.4.jar" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedReferenceJar Include="azure-communication-calling-2.0.0.aar" />
+    <EmbeddedReferenceJar Include="azure-communication-common-1.0.0.aar" />
+  </ItemGroup>
+  <ItemGroup>
+    <LibraryProjectZip Include="mylibrary-debug.aar">
+      <Pack></Pack>
+    </LibraryProjectZip>
+  </ItemGroup>
+</Project>

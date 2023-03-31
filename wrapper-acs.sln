@@ -5,6 +5,8 @@ VisualStudioVersion = 25.0.1705.2
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "wrapper-acs", "wrapper-acs\wrapper-acs.csproj", "{44247F61-CF99-4AB6-83BE-BCEEE4581942}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "wrapper-acs-1", "wrapper-acs-1\wrapper-acs-1.csproj", "{C2F06263-C54B-4B01-AD9F-34725D4CF419}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{44247F61-CF99-4AB6-83BE-BCEEE4581942}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{44247F61-CF99-4AB6-83BE-BCEEE4581942}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{44247F61-CF99-4AB6-83BE-BCEEE4581942}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C2F06263-C54B-4B01-AD9F-34725D4CF419}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C2F06263-C54B-4B01-AD9F-34725D4CF419}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C2F06263-C54B-4B01-AD9F-34725D4CF419}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C2F06263-C54B-4B01-AD9F-34725D4CF419}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
