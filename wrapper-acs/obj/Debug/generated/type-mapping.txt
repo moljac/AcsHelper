@@ -1,0 +1,10 @@
+com/example/mylibrary/AcsHelper = Com.Example.Mylibrary.AcsHelper
+  <init>(Landroid/app/Activity;Landroid/widget/GridLayout;Landroid/widget/LinearLayout;)V = .ctor(Android.App.Activity, Android.Widget.GridLayout, Android.Widget.LinearLayout)
+  hangUp()V = HangUp()
+  startCall(Ljava/lang/String;)V = StartCall(string)
+  toaster(Landroid/content/Context;)V = Toaster(Android.Content.Context)
+com/example/mylibrary/BuildConfig = Com.Example.Mylibrary.BuildConfig
+  <init>()V = .ctor()
+  BUILD_TYPE = BuildType
+  DEBUG = Debug
+  LIBRARY_PACKAGE_NAME = LibraryPackageName
